@@ -19,6 +19,7 @@ git config --global --remove-section alias;
 git config --global alias.ck "checkout";
 git config --global alias.br "branch";
 git config --global alias.com "commit";
+git config --global alias.coma "commit --amend";
 git config --global alias.comm "commit -m";
 git config --global alias.acomm "commit --allow-empty -m";
 git config --global alias.tree "log --all --graph --pretty=format:'%C(#f1a729)%h%C(reset) %s%C(cyan)%d %n %C(dim)%b %n %C(dim)%cr - %cn %n'";
