@@ -12,7 +12,7 @@ br - branch
 
 com - commit
 
-comam - commit --amend
+comam - commit --amend -m
 
 comm - commit -m
 
