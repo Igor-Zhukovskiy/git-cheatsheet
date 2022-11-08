@@ -2,7 +2,9 @@
 
 H - HEAD
 
-aro(add remote origin) - remote add origin
+rem - remote
+
+stat - status
 
 aa - add .
 
@@ -16,7 +18,7 @@ comam - commit --amend -m
 
 comm - commit -m
 
-come - пустой commit
+come - commit --allow-empty
 
 his - показывает историю в виде графика
 
@@ -24,10 +26,10 @@ refhis - показывает историю в виде графика + reflog
 
 ## Быстрая настройка
 git config --global --remove-section alias;
-git config --global alias.panic "config --list | grep alias | cut -c 7-";
 git config --global alias.H "HEAD";
-git config --global alias.aro "remote add origin";
-git config --global alias.ck "add .";
+git config --global alias.rem "remote";
+git config --global alias.stat "status";
+git config --global alias.aa "add .";
 git config --global alias.ck "checkout";
 git config --global alias.br "branch";
 git config --global alias.com "commit";
