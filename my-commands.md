@@ -37,4 +37,4 @@ git config --global alias.comam "commit --amend -m";
 git config --global alias.comm "commit -m";
 git config --global alias.come "commit --allow-empty -m";
 git config --global alias.his "log --all --graph --pretty=format:'%C(#f1a729)%h%C(reset) %s%C(cyan)%d %n %C(dim)%b %n %C(dim)%cr - %cn %n'";
-git config --global alias.refhis "log --reflog --graph --pretty=format:'%C(#f1a729)%h%C(reset) %s%C(cyan)%d %n %C(dim)%b %n %C(dim)%cr - %cn %n'";
+git config --global alias.refhis "log --reflog --graph --pretty=format:'%C(#f1a729)%h%C(reset) %s%C(cyan)%d %n %C(dim)%b %n %C(dim)%cr - %cn %n'"
